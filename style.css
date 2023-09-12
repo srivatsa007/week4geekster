@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    /* width: 100vw; */
+    /* text-decoration: none; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    position: sticky;
+    color: white;
+    padding: 20px;
+    top: 0;
+    z-index: 9;
+}
+.nav a {
+    /* text-decoration: none; */
+    /* font-weight: bold; */
+    padding: 0 22px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav a:hover, .logo-section:hover{
+    color: #ddd;
+}
+
+.logo h2{
+    text-decoration:none; 
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.logo-section {
+    text-decoration:none;
+    margin: 4px 2%;
+    font-weight: lighter;
+}
+/* formerly main-container */
+.page { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.homepage {
+    background: url(family-camping-at-sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position:relative;
+}
+
+.homepage::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.inner-box {
+    z-index: 2;
+    width: 80%;
+    margin: auto;
+    color: white;
+    margin-top: 100px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-box h1 {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.cta{
+/* .first-box-content-margin { */
+    margin: 0 0 20px;
+}
+
+.cta2 {
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.ctabutton {
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 44px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.ctabutton:hover {
+    
+    color: #fff;
+    background: rgba(255,255,255,0.3);
+}
+
+
+/* Services page */
+.para-heading {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.para-heading h2 {
+    margin-top: 100px;
+    font-size: 2rem;
+    margin: 3px;
+    font-weight: bold;
+
+}
+
+/* second-container */
+.card-section {
+    display: flex;
+    flex-direction: column;
+    /* padding: 4%; */
+    /* margin-left: 36px; */
+    /* margin-right: 36px; */
+
+    /* position: absolute; */
+}
+
+.service-card {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.servicepage,
+.foot {
+    margin-top: 100px;
+    min-height: auto;
+    margin-bottom: 50px;
+
+}
+
+.card-box {
+    height: 30%;
+    width: 30%;
+    min-width: 300px;
+    margin: 0 -30px;
+    padding: 3%;
+}
+
+.card {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 15px; */
+    height: 300px;
+    background-color:
+        #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 40px 15px;
+}
+
+.card-image img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.card-inner-part {
+    margin: 10px 5px;
+}
+
+/* third-container */
+.page3 {
+    text-align: left;
+    /* margin-left: 10%; */
+}
+
+.para {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.para p {
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.para li {
+    margin: 5px;
+}
+
+/* footer */
+.footer-content {
+    /* padding: 10px; */
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin:25px auto;
+    flex-wrap: wrap;
+    min-height: auto;
+}
+
+.footer-content-part p {
+    margin: 12px 0;
+}
+
+.footer-content-part span {
+    margin: 0 13px;
+    color: #7a7a7a;
+}
+
+.footer-first {
+    margin-top: 30px;
+   width: 550px;
+   margin: 24px;
+}
+.footer-second{
+    width: 600px;
+    padding: auto;
+    margin: 24px;
+}
+.form {
+    width: 100%;
+}
+
+.form input,
+textarea {
+    width: 90%;
+    height: 45px;
+    margin: 10px;
+    border-radius: 0;
+    border-color: #cfcfcf;
+    border-width: 0.1px;
+    border-style: solid;
+    padding: 5px 10px;
+}
+
+.form textarea {
+    height: 150px;
+}
+
+.form-btn {
+    background-color: #333333;
+    color: white;
+    font-size: 17px;
+    padding: 14px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.form-btn:hover{
+    background: #525252;
+    transition: 0.3s;
+}
+@media  screen and (max-width: 560px) {
+    .service-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-box{
+        width: 90%;
+    }
+}
+@media screen and (max-width:860px) {
+    .navbar .nav-right{
+        display: none;
+    }
+}
+
+/* 860 */
