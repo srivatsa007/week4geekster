@@ -7,3 +7,11 @@ hosted link: https://srivatsa007.github.io/week4geekster/
 ![image](https://github.com/srivatsa007/week4geekster/assets/70172502/8908ebcc-26f2-4952-8933-6c0b49fceb55)
 
 
+Html tags magorly used are:
+<div> <section> <nav> <body> <header> <h tags> <p> <and other general tags>
+<a> anchor tags to navigate between the pages
+<button> tag to make buttons
+<link> to link css, fonts, favicon
+
+along with tags, attribute names and id were important for this project because we need to toggle and identfy tags seperately.
+classnames were also used interchangably between tags to attribute multiple stylings for different classes to different elements.
